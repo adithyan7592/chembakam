@@ -1,3 +1,48 @@
 .dropdown-item a{
     text-decoration: none;
 }
+.main{
+    position: relative;
+}
+.head1{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    font-size: 65px;
+
+}
+.head2{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    font-weight: 400;
+    font-size: 65px;
+}
+.log1{
+    /* margin: 0%; */
+    width: 60%;
+    position: absolute;
+    top: 35%;
+}
+#btn1{
+    position: absolute;
+    
+}
+@media(max-width:575px) {
+    
+    .head1{
+        font-size: 30px;
+    }
+    .head2{
+        font-size: 30px;
+    }
+}
+@media(max-width:875px) {
+    
+    .head1{
+        font-size: 35px;
+    }
+    .head2{
+        font-size: 35px;
+    }
+}
