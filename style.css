@@ -3,7 +3,7 @@
 }
 .main{
     position: relative;
-}
+} 
 .head1{
     position: absolute;
     top: 20%;
@@ -26,7 +26,16 @@
 }
 #btn1{
     position: absolute;
+    top: 65%;
+    left: 2%;
+    border: solid whitesmoke;
     
+}
+#btn2{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    border: solid whitesmoke;
 }
 @media(max-width:575px) {
     
