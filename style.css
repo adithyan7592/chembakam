@@ -1,3 +1,9 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
 .dropdown-item a{
     text-decoration: none;
 }
@@ -37,6 +43,28 @@
     left: 2%;
     border: solid whitesmoke;
 }
+.selling{
+    position: relative;
+}
+#selling{
+    text-align: center;
+}
+#btn3{
+    position: absolute;
+    top: 160%;
+    left: 40%;
+}
+.new{
+    margin-top: 100px;
+}
+#new{
+    text-align: center;
+}
+#text{
+    text-decoration: none;
+    color: grey;
+}
+
 @media(max-width:575px) {
     
     .head1{
