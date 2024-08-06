@@ -64,7 +64,39 @@
     text-decoration: none;
     color: grey;
 }
+.selling1{
+    margin-top: 50px;
+    text-align: center;
+}
+.price{
+    color: black;
+}
+.carousel-inner {
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
+.carousel-item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 165px; /* Max width for larger screens */
+    border-radius: 50%;
+}
+.carousel-item figcaption {
+    margin-top: 8px;
+    display: block;
+}
+.ftr a{
+    text-decoration: none;
+}
+.ftr a:hover{
+    background-color: crimson;
+}
 @media(max-width:575px) {
     
     .head1{
